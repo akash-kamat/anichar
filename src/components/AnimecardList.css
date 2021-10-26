@@ -1,0 +1,7 @@
+.Animelist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.918);
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(./back.png);
+}

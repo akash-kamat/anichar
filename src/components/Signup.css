@@ -1,0 +1,89 @@
+/* #signupBox{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.842);
+    
+}
+
+.logininnerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aff72b;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    filter: drop-shadow(16px 16px 0px rgba(0, 0, 0, 0.781));
+}
+
+.signuptitle{
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.925);
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+#email{
+    border: 2px solid rgba(0, 0, 0, 0.486);
+    outline-color: #aff72b;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.781);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: -50px;
+    
+}
+
+#pass{
+    border: 2px solid rgba(0, 0, 0, 0.486);
+    outline-color: #aff72b;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.781);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+#email::placeholder{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+#pass::placeholder{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+#registerBtn{
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #cffd7b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    transition: all 0.1s ease;
+}
+
+#registerBtn:active,#registerBtn:focus{
+    transform: scale(0.8);
+}
+
+#registerBtn:hover{
+    transform: scale(1.07);
+} */

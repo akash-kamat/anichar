@@ -1,0 +1,83 @@
+.profilePage{
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(./back.png);
+}
+
+.userDetails{
+    background-color: #212529;
+    width: 30%;
+    display: flex;
+    /* align-items: center; */
+    justify-content:space-evenly;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.userDetailsInner{
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    /* padding: 10px; */
+}
+
+.favs{
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    margin-top: 25px;
+    padding:20px 0;
+    border-radius: 5px;
+    width: 450px;
+}
+
+#dp{
+    margin-top: 13px;
+    width: 80px;
+    height: 80px;
+    border: 3px dashed white;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.userName{
+
+}
+
+#usrname{
+    font-size: 1.7rem;
+    letter-spacing: 5px;
+}
+
+.joinedDate{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+#joinedDate{
+    letter-spacing: 2px;
+    margin-left: 8px;
+    background-color: orange;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.favItems{
+    font-size: 1.8rem;
+    /* display: inline-block; */
+    background-color: rgb(83, 150, 172);
+    overflow: hidden;
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    /* width: 450px; */
+}

@@ -1,0 +1,13 @@
+#Characterlist {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.918);
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(./back.png);
+
+}
+
+.liked{
+    background-color:#bd4b5e;
+}
