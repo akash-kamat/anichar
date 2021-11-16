@@ -43,9 +43,12 @@ This Runs the server on [http://localhost:3001](http://localhost:3001).
 
 ### For Client:
 
+Run the following commands in the Root folder
 
-
-Run `npm start` in the root directory 
+```
+npm install
+npm start
+```
 
 This Runs the App on [http://localhost:3000](http://localhost:3000).
 Open a browser to see it
