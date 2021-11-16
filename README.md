@@ -27,16 +27,14 @@ In the project directory, you can run:
 
 ### For server:
 
+Edit the mongoDB connection string at Line 8 of `main.js` in server folder
+
 Goto server folder in and run
 
 ```
 npm install
 npm start
 ```
-
-Point the mongoDB connection string to your database by editing Line 3 of 'main.js' in server folder
-
-``
 
 This Runs the server on [http://localhost:3001](http://localhost:3001).
 
@@ -47,7 +45,7 @@ This Runs the server on [http://localhost:3001](http://localhost:3001).
 
 
 
-Run ### `npm start` in the root directory 
+Run `npm start` in the root directory 
 
 This Runs the App on [http://localhost:3000](http://localhost:3000).
 Open a browser to see it
