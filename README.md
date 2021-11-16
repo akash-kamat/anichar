@@ -29,7 +29,14 @@ In the project directory, you can run:
 
 Goto server folder in and run
 
-### `npm start`
+```
+npm install
+npm start
+```
+
+Point the mongoDB connection string to your database by editing Line 3 of 'main.js' in server folder
+
+``
 
 This Runs the server on [http://localhost:3001](http://localhost:3001).
 
@@ -50,6 +57,6 @@ You will also see any lint errors in the console.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 
 -----------------------------------------------------------------------------
